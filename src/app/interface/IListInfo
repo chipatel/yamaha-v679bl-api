@@ -1,0 +1,6 @@
+interface ListInfo{
+ response_code;
+ menu_layer;
+ max_line;
+ list_info: Array<IListInfoArray>;
+}

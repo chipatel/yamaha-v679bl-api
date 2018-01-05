@@ -1,1 +1,23 @@
-Home
+<H3>Welcome to YAMAHA V679BL app</H3>
+<p>
+  <button class="btn btn-success" (click)="powerOn()">
+    {{pwrOnBtnText}}
+  </button>
+  <button class="btn btn-danger" (click)="powerOff()">
+    {{pwrOffBtnText}}
+  </button>
+</p>
+<span>------------------------------------</span>
+<div>
+  <p>
+    <span>Arti Control</span>
+  </p>
+<p>
+  <button class="btn btn-success" (click)="playArti(morning)">
+    {{morningArtiBtnText}}
+  </button>
+  <button class="btn btn-danger" (click)="playArti(evening)">
+    {{eveningArtiBtnText}}
+  </button>
+</p>
+</div>
